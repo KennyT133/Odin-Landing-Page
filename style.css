@@ -5,8 +5,30 @@ body{
 }
 .header{
     background-color: #1F2937;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
 }
-
+.headerLogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.links,.heroSecond{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
 .heroContainer{
     background-color: #1F2937;
 }
