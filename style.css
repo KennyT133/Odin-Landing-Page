@@ -1,4 +1,13 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 .header{
+    background-color: #1F2937;
+}
+
+.heroContainer{
     background-color: #1F2937;
 }
 
@@ -11,5 +20,10 @@
 }
 
 .footer{
-    background-color: #1F2937;
+    background-color:#1F2937 ;
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
 }
