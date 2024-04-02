@@ -9,8 +9,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 0px 400px;
+    padding: 0px 200px;
     .logo{
+        margin: 10px;
         font-size: 24px;
         color:#F9FAF8;
     }
@@ -24,4 +25,40 @@ body{
         text-decoration: none;
         color: #e5e7eb;;
     }
+}
+.heroContainer{
+    background-color: #1f2937;
+    display: flex;
+    padding: 24px 200px;
+    justify-content: space-between;
+    .heroText{
+        
+        h1{
+            font-size: 48px;
+            font-weight: bold;
+            color: #F9FAF8;
+            margin: 0;
+        }
+        p{
+            font-size: 18px;
+            color:#F9FAF8;
+            
+        }
+        button{
+            background-color: #3882F6;
+            color: white;
+            border-radius: 4px;
+            border: 0px;
+            width: 100px;
+            height: 30px;
+        }
+    }
+   .heroImage{
+        min-width: 500px;
+        min-height: 250px;
+        background-color: grey;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+   }
 }
