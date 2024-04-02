@@ -87,7 +87,7 @@ img{
 }
 .quoteContainer{
     background-color: #e5e7eb;
-    padding:24px 200px;
+    padding:100px 200px;
     display: flex;
     
     flex-direction: column;
@@ -104,4 +104,34 @@ img{
         align-items: flex-end;
         justify-content: flex-end;
     }
+}
+.action{
+    padding:50px 200px;
+   
+    .actionContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#3882F6;  
+        border-radius: 8px;
+        flex: 1;
+        gap: 50px ;
+        padding: 12px;
+        color: white;
+    }
+    h2{
+        margin-bottom: 0;
+    }
+    p{
+        margin-top: 0;
+    }
+    button{
+        background-color: #3882F6;
+        color: white;
+        border-radius: 1px ;
+        border: 1px solid white;
+        width: 100px;
+        height: 30px;
+    }
+ 
 }
