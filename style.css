@@ -3,6 +3,7 @@ body{
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .header{
     background-color: #1f2937;
@@ -134,4 +135,13 @@ img{
         height: 30px;
     }
  
+}
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 0;
+    min-height: 100px;
 }
