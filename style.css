@@ -62,3 +62,27 @@ body{
         justify-content: center;
    }
 }
+.InfoText{
+    padding:24px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.infoContainer{
+    padding:24px 200px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text{
+        display: flex;
+    }
+}
+
+img{
+    border:2px solid #3882F6;
+    border-radius: 10px;
+    padding: 75px;
+}
